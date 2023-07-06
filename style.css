@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    row-gap: 1em;
+    border: 1px solid red;
+
+}
+
+.container input{
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    caret-color: green;
+    background-color: palevioletred;
+    color: white;
+}
+
+.container button{
+    width: 100px;
+    height: 25px;
+    border-radius: 12.5px;
+    border: none;
+    box-shadow: 0 0 5px red;
+    background-color: black;
+    color: white;
+    align-self: center;
+}
+
+.container .outputcontainer{
+    width: 100%;
+    display: flex;
+    gap:1em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .outputcontainer div{
+    width: 200px;
+    height: 200px;
+    border: 1px dashed black;
+}
+
